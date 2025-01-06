@@ -1,11 +1,35 @@
 {
   "description": "项目配置文件",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
   "setting": {
-    "urlCheck": false,
+    "bundle": false,
+    "userConfirmedBundleSwitch": false,
+    "urlCheck": true,
+    "scopeDataCheck": false,
+    "coverView": true,
     "es6": true,
     "postcss": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "preloadBackgroundData": false,
     "minified": true,
-    "newFeature": true,
+    "autoAudits": false,
+    "newFeature": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "useIsolateContext": true,
+    "nodeModules": false,
+    "enhance": true,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "showShadowRootInWxmlPanel": true,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -13,14 +37,10 @@
     }
   },
   "compileType": "game",
-  "libVersion": "latest",
+  "libVersion": "2.30.2",
   "appid": "wx94a59dfb2a81d379",
-  "projectname": "quickstart",
+  "projectname": "AI互动剧情游戏",
   "condition": {},
-  "packOptions": {
-    "ignore": [],
-    "include": []
-  },
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
